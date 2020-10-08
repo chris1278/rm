@@ -1,0 +1,63 @@
+<!-- INCLUDECSS css/rm_acp.css -->
+<!-- INCLUDE overall_header.html -->
+
+<a name="maincontent"></a>
+
+	<h1 class="rm-page-title">{L_ACP_RM_PAGE_TITLE}</h1>
+	<p>{L_ACP_RM_PAGE_TITLE_EXPLAIN}</p>
+	<br>
+	<fieldset class="acpinfo">
+	{L_ACP_RM_INSTALLATIONS_INFORMATION}
+	</fieldset>
+	<br>
+	<dl class="rm-permission-title">{L_ACP_RM_PERM_TITLE}</dl>
+	<fieldset class="rm-permission-info">
+		{L_ACP_RM_PERMISSION_BEFORE}<a href="{U_USER_PERMISSIONS}"><strong>{L_ACP_RM_USERS_PERMISSIONS}</strong></a> {L_ACP_ANDOR} <a href="{U_GROUP_PERMISSIONS}"><strong>{L_ACP_RM_GROUPS_PERMISSIONS}</strong></a>{L_ACP_RM_PERMISSION_AFTER}
+	</fieldset>
+	<br>
+	<dl class="rm-set-title">{L_ACP_RM_SET_TITLE}</dl>
+	<form id="acp_rm" method="post" action="{U_ACTION}">
+	<fieldset>
+		<dl>
+			<dt><label for="rm_enable">{L_RM_ENABLE}{L_COLON}</label><br /><span>{L_RM_ENABLE_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="rm_enable" value="1"<!-- IF RM_ENABLE --> id="rm_enable" checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+				<label><input type="radio" class="radio" name="rm_enable" value="0"<!-- IF not RM_ENABLE --> id="rm_enable" checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="rm_position">{L_RM_POSITION}{L_COLON}</label><br /><span>{L_RM_POSITION_EXPLAIN}</span></dt>
+			<dd>
+				<select name="rm_position" id="rm_position">
+					<option value="1"<!-- IF RM_POSITION eq '1' --> selected="selected"<!-- ENDIF -->>{L_RM_FORUMLIST_BEFORE}</option>
+					<option value="2"<!-- IF RM_POSITION eq '2' --> selected="selected"<!-- ENDIF -->>{L_RM_FORUMLIST_AFTER}</option>
+					<option value="3"<!-- IF RM_POSITION eq '3' --> selected="selected"<!-- ENDIF -->>{L_RM_ONLINE_LIST_BEFORE}</option>
+					<option value="4"<!-- IF RM_POSITION eq '4' --> selected="selected"<!-- ENDIF -->>{L_RM_STATISTICS_AFTER}</option>
+					
+				</select>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="schow_rm_all">{L_SHOW_RM_ALL}{L_COLON}</label><br /><span>{L_SHOW_RM_ALL_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="show_rm_all" value="1"<!-- IF SHOW_RM_ALL --> id="show_rm_all" checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+				<label><input type="radio" class="radio" name="show_rm_all" value="0"<!-- IF not SHOW_RM_ALL --> id="show_rm_all" checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="revolvermaps_widget">{L_RM_WIDGET}{L_COLON}</label><br><span>{L_RM_WIDGET_EXPLAIN}</span></dt>
+			<dd><input type="text" name="revolvermaps_widget" id="revolvermaps_widget" maxlength="255" size="40" value="{REVOLVERMAPS_WIDGET}{L_ACP_WIDGETINFO}"/></dd>
+		</dl>
+		
+	</fieldset>
+	<p class="submit-buttons">
+		<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+		<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+	</p>
+
+	{S_FORM_TOKEN}
+
+	
+</form>
+
+<!-- INCLUDE overall_footer.html -->

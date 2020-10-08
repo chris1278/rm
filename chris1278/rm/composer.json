@@ -1,0 +1,32 @@
+{
+	"name": "chris1278/rm",
+	"type": "phpbb-extension",
+	"description": "Revolvermaps is a real-time visitor statistics widget for the forum",
+	"homepage": "https://www.phpbb.de/community/viewtopic.php?f=149&t=242009",
+	"version": "1.0.0",
+	"time": "2020-10-03",
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "Christian Esch aka Chris1278",
+			"email": "smilie-man@gmx.de",
+			"homepage": "https://www.phpbb.de/community/memberlist.php?mode=viewprofile&u=87861",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"extra": {
+		"display-name": "Real-time statistics with Revolvermaps",
+			"soft-require": {
+			"phpbb/phpbb": ">= 3.2.8,<3.3.0"
+		},
+		"version-check": {
+			"host": "raw.githubusercontent.com",
+			"directory": "/chris1278/rm/main",
+			"filename": "rm.json",
+			"ssl": true
+		}
+	}
+}

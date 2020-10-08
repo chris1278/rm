@@ -1,0 +1,12 @@
+services:
+    chris1278.rm.listener:
+        class: chris1278\rm\event\listener
+        arguments:
+            - '@auth'
+            - '@config'
+            - '@template'
+            - '@language'
+            - '%core.php_ext%'
+            - '@?phpbb.collapsiblecategories.operator'
+        tags:
+            - { name: event.listener }
