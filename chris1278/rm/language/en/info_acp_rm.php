@@ -44,8 +44,10 @@ $lang = array_merge($lang, array(
 	'ACL_U_VIEW_RM'						=>	'Can Revolvermaps see',
 
 	// Settings-Page
-	'ACP_RM_INSTALLATIONS_INFORMATION'	=>	'<strong>Advance info:</strong> Once you´ve installed and activated this extension, it doesn´t actually do anything. The only thing you see is a box that is empty.<br> <br>You must first fill this box with content. To do this, proceed as follows:<br><br> 
-											<br>
+	'ACP_RM_INSTALLATIONS_INFORMATION'	=>	'<strong>Advance info:</strong> 
+											<br><br>
+											Um diese Erweiterung verwenden zu können, muss der Skriptcode für das Widget auf <a href="https://www.revolvermaps.com/" target="_blank"><mark>Revolvermaps.com</mark></a> generiert werden.
+											<br><br>
 											Go to the website <a href="https://www.revolvermaps.com/" target="_blank"><mark>Revolvermaps.com</mark></a> and choose a widget there that you would like to have. You can choose between different options or variants. 
 											If you have created a widget there, you will receive a script code at the end that you can integrate into your homepage. The widget is not only suitable for forums, but can also be integrated into a normal HTML homepage.
 											You need this script code so that you can integrate this widget in your forum.
@@ -70,7 +72,7 @@ $lang = array_merge($lang, array(
 	'RM_STATISTICS_AFTER'				=> 	'Show under the statistics',
 	'SHOW_RM_ALL'						=>	'Show Revolvermaps in all positions',
 	'SHOW_RM_ALL_EXPLAIN'				=>	'This enables you as the administrator to select where you would like to place or display the revolver maps. If you have this option on <b>"Yes"</b>  all available positions are displayed. You should then select <b> "No" </b> again so that the revolver map is only displayed in the position you want at the end.<br><br> <i><u><strong>Important:</strong></u></i><br>This is only visible to users with administrator rights. All other users only see (depending on the set authorizations) the position set in the position selection.',
-	'RM_WIDGET'							=>	'Scriptcode-Eingabe',
+	'RM_WIDGET'							=>	'Skriptcode-Eingabe',
 	'RM_WIDGET_EXPLAIN'					=>	'Please enter your script here, which you must have created beforehand at <a href="https://www.revolvermaps.com/" target="_blank"><mark>Revolvermaps.com</mark></a>. <br><br>See the box above for more information.',
 	'ACP_WIDGETINFO'					=>	'Please insert the script code here',
 ));

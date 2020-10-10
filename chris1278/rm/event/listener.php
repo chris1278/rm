@@ -43,8 +43,8 @@ class listener implements EventSubscriberInterface
 		return array(
 			'core.user_setup'				=>	'load_language_on_setup',
 			'core.permissions'				=>	'permissions',
-			'core.display_forums_after'		=>	array(array('show_rm')),
-			'core.page_header'				=> 	array(array('collaps')),
+			'core.display_forums_after'		=>	'show_rm',
+			'core.page_header'				=> 	'collaps',
 		);
 	}
 

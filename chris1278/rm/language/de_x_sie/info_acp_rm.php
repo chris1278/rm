@@ -44,13 +44,15 @@ $lang = array_merge($lang, array(
 	'ACL_U_VIEW_RM'						=>	'Kann Revolvermaps sehen',
 
 	// Settings-Page
-	'ACP_RM_INSTALLATIONS_INFORMATION'	=>	'<strong>Vorabinfo:</strong> Wenn Sie diese Erweiterung installiert und aktiviert haben, tut diese eigentlich noch gar nichts. 
-											Das einzige, was Sie sehen ist, eine Box die aber leer ist. <br> <br>Sie müssen diese Box erstmal mit einem Inhalt füllen. Dazu gehen Sie wie folgt vor:<br><br> 
-											<br>
+	'ACP_RM_INSTALLATIONS_INFORMATION'	=>	'<strong>Vorabinfo:</strong>
+											<br><br>
+											Um diese Extension Nutzen zu können müssen Sie sich erst den Skripcode für das widget auf Revolvermaps.com besorgen. 
+											<br><br>
 											Gehen Sie auf die Seite <a href="https://www.revolvermaps.com/" target="_blank"><mark>Revolvermaps.com</mark></a> und suchen Sie sich dort ein Widget aus was Sie gerne haben möchten. Sie können zwischen verschiedenen Optionen bzw. Varianten wählen. 
-											Wenn Sie dort ein Widget erstellt haben, bekommen Sie am Ende einen Script Code denn Sie in Ihrer Homepage einbinden können. Das Widget ist nicht nur für Foren geeignet, sondern man kann dieses auch auf einer ganz normalen HTML Homepage einbinden.
-											Diesen Script Code brauchen Sie, damit Sie in Ihrem Forum dieses Widget einbinden können.<br><br>
-												Dann wünsch ich Ihnen Viel Spaß damit!',
+											Wenn Sie dort ein Widget erstellt haben, bekommen Sie am Ende einen Skriptcode denn Sie in Ihrer Homepage einbinden können. Das Widget ist nicht nur für Foren geeignet, sondern man kann dieses auch auf einer ganz normalen HTML Homepage einbinden.
+											Diesen Skriptcode brauchen Sie, damit Sie in Ihrem Forum dieses Widget einbinden können.
+											<br><br>
+											Dann wünsch ich Ihnen Viel Spaß damit!',
 	'ACP_RM_PAGE_TITLE'					=>	'Revolvermaps-Einstellungen',
 	'ACP_RM_PAGE_TITLE_EXPLAIN'			=>	'Hier können Sie einige Einstellungen für die Erweiterung vornehmen.',
 	'ACP_RM_PERM_TITLE'					=>	'Einstellen der Berechtigungen:',
@@ -70,7 +72,7 @@ $lang = array_merge($lang, array(
 	'RM_STATISTICS_AFTER'				=> 	'Unter der Statistik anzeigen',
 	'SHOW_RM_ALL'						=>	'Zeige Revolvermaps auf allen Positionen',
 	'SHOW_RM_ALL_EXPLAIN'				=>	'Dies dient Ihnen als Administrator dazu auszuwählen wo Sie die Revolvermaps gerne platzieren bzw. anzeigen lassen möchten. Wenn Sie diese Option auf <b>"Ja"</b> setzten werden alle verfügbaren Positionen eingeblendet. Sie sollten danach wieder <b>"Nein"</b> wählen damit die Revolvermaps am Ende nur auf der von Ihnen Gewünschten Position eingeblendet wird.<br><br> <i><u><strong>Wichtig:</strong></u></i><br>Dies ist nur für Benutzer mit Administrator-Rechten sichtbar. Alle Anderen Benutzer sehen nur (je nach eingestellten Berechtigungen) die in der Positionsauswahl eingestellte Position. ',
-	'RM_WIDGET'							=>	'Scriptcode-Eingabe',
-	'RM_WIDGET_EXPLAIN'					=>	'Hier geben Sie bitte Ihr Script ein welches Sie sich vorher bei <a href="https://www.revolvermaps.com/" target="_blank"><mark>Revolvermaps.com</mark></a> erstellen lassen müssen. <br><br>Weitere Info Siehe Obere Box.',
-	'ACP_WIDGETINFO'					=>	'Bitte hier den Scriptcode Einfügen',
+	'RM_WIDGET'							=>	'Skriptcode-Eingabe',
+	'RM_WIDGET_EXPLAIN'					=>	'Hier geben Sie bitte Ihren Skriptcode ein, welchen Sie sich vorher bei <a href="https://www.revolvermaps.com/" target="_blank"><mark>Revolvermaps.com</mark></a> erstellen lassen müssen. <br><br>Weitere Info Siehe Obere Box.',
+	'ACP_WIDGETINFO'					=>	'Bitte hier den Skriptcode Einfügen',
 ));

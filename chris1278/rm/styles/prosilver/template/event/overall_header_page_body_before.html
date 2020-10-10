@@ -1,18 +1,8 @@
-<!-- IF RM_ENABLE and RM_POSITION eq 2 or SHOW_RM_ALL and RM_ENABLE and U_ACP -->
+<!-- IF RM_ENABLE and REVOLVERMAPS_WIDGET and RM_POSITION eq 2 or SHOW_RM_ALL and RM_ENABLE and U_ACP -->
+<div class="rm">
+<a class="category{% if S_RM_HIDDEN %} hidden-category{% endif %}" style="display: none; height: 0"></a>
 <div class="pad1">
-	<div class="forabg">
-		<div class="inner">
-			<ul class="topiclist">
-				<li class="header">
-					<dl class="row-item">
-						<dt><i class="icon fa-globe fa-fw icon-light-blue" aria-hidden="true"></i><span>{L_RM}</span></dt>
-					</dl>
-				</li>
-			</ul>
-			<ul class="topiclist forums">	
-					{REVOLVERMAPS_WIDGET}
-			</ul>
-		</div>
-	</div>
+	<!-- INCLUDE rm.html -->
+</div>
 </div>
 <!-- ENDIF -->

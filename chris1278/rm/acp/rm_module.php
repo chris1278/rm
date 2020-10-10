@@ -14,7 +14,7 @@ class rm_module
 	var $u_action;
 	public function main()
 	{
-		global $user, $revolvermaps_widget, $cache, $request, $template;
+		global $user, $cache, $request, $template;
 		global $config, $phpbb_root_path, $phpbb_admin_path, $phpbb_container, $phpbb_ext_manager, $phpEx, $language;
 
 		$language	= $phpbb_container->get('language');
@@ -29,7 +29,6 @@ class rm_module
 		$this->phpbb_admin_path = $phpbb_admin_path;
 		$this->php_ext = $phpEx;
 		$this->phpbb_ext_manager = $phpbb_ext_manager;
-		$this->revolvermaps_widget = $revolvermaps_widget;
 
 		//Revolvermaps Settings
 		add_form_key('acp_rm');

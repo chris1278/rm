@@ -1,0 +1,17 @@
+.rm {
+}
+li.row.rm-panel {
+	padding: 4px;
+	text-align: center;
+}
+
+li.row.rm-panel:hover {
+	background-color: transparent;
+}
+.pad1 {
+	padding-top: 5px;
+}
+
+.pad2 {
+	padding-top: 15px;
+}

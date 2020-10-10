@@ -2,7 +2,7 @@
 	"name": "chris1278/rm",
 	"type": "phpbb-extension",
 	"description": "Revolvermaps is a real-time visitor statistics widget for the forum",
-	"homepage": "https://www.phpbb.de/community/viewtopic.php?f=149&t=242009",
+	"homepage": "https://",
 	"version": "1.0.0",
 	"time": "2020-10-03",
 	"license": "GPL-2.0-only",
@@ -15,12 +15,12 @@
 		}
 	],
 	"require": {
-		"php": ">=7.0"
+		"php": ">=7.3"
 	},
 	"extra": {
 		"display-name": "Real-time statistics with Revolvermaps",
 			"soft-require": {
-			"phpbb/phpbb": ">= 3.2.8,<3.3.0"
+			"phpbb/phpbb": ">3.3.0"
 		},
 		"version-check": {
 			"host": "raw.githubusercontent.com",
