@@ -3,8 +3,8 @@
 	"type": "phpbb-extension",
 	"description": "Revolvermaps is a real-time visitor statistics widget for the forum",
 	"homepage": "https://www.phpbb.de/community/viewtopic.php?f=149&t=244915",
-	"version": "1.0.0",
-	"time": "2020-10-03",
+	"version": "1.0.1",
+	"time": "2020-10-11",
 	"license": "GPL-2.0-only",
 	"authors": [
 		{
