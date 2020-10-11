@@ -25,14 +25,14 @@ class initial_install extends \phpbb\db\migration\migration
 	public function update_data()
 	{
 		return array(
-			array('config.add', array('rm_version', '1.0.1')),
+			array('config.add', array('rm_version', '1.0.0')),
 		);
 	}
 
 	public function revert_schema()
 	{
 		return array(
-			array('config.remove', array('rm_version', '1.0.1')),
+			array('config.remove', array('rm_version', '1.0.0')),
 		);
 	}
 }
